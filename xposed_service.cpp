@@ -511,7 +511,7 @@ class BpXposedService: public BpInterface<IXposedService> {
         }
 };
 
-IMPLEMENT_META_INTERFACE(XposedService, "de.robv.android.xposed.IXposedService");
+IMPLEMENT_META_INTERFACE(XposedService, "com.miui.mask.IXposedService");
 
 status_t BnXposedService::onTransact(uint32_t code, const Parcel& data, Parcel* reply, uint32_t flags)  {
     switch (code) {

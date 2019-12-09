@@ -11,11 +11,11 @@
 
 namespace xposed {
 
-#define CLASS_XPOSED_BRIDGE  "de/robv/android/xposed/XposedBridge"
+#define CLASS_XPOSED_BRIDGE  "com/miui/mask/XposedBridge"
 #define CLASS_XRESOURCES     "android/content/res/XResources"
 #define CLASS_MIUI_RESOURCES "android/content/res/MiuiResources"
-#define CLASS_ZYGOTE_SERVICE "de/robv/android/xposed/services/ZygoteService"
-#define CLASS_FILE_RESULT    "de/robv/android/xposed/services/FileResult"
+#define CLASS_ZYGOTE_SERVICE "com/miui/mask/services/ZygoteService"
+#define CLASS_FILE_RESULT    "com/miui/mask/services/FileResult"
 
 
 /////////////////////////////////////////////////////////////////

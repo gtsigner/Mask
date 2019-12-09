@@ -21,7 +21,7 @@ endif
 
 LOCAL_SRC_FILES += \
   libxposed_common.cpp \
-  libxposed_art.cpp
+  libmask_art.cpp
 
 LOCAL_C_INCLUDES += \
   art/runtime \
@@ -42,7 +42,7 @@ LOCAL_CFLAGS += \
   -DPLATFORM_SDK_VERSION=$(PLATFORM_SDK_VERSION) \
   -DXPOSED_WITH_SELINUX=1
 
-LOCAL_MODULE := libxposed_art
+LOCAL_MODULE := libmask_art
 LOCAL_MODULE_TAGS := optional
 LOCAL_STRIP_MODULE := keep_symbols
 LOCAL_MULTILIB := both
